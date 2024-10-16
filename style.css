@@ -1,0 +1,14 @@
+* {
+    background-color: blue;
+}
+
+body {
+    padding: 50px;
+    margin: auto;
+}
+
+div {
+    width: 25%;
+    height: auto;
+
+}
