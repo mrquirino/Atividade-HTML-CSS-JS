@@ -1,14 +1,16 @@
 * {
-    background-color: blue;
+    background-color: rgb(148, 148, 226);
 }
 
 body {
-    padding: 50px;
-    margin: auto;
+    text-align: center;
+    box-shadow: #555;
 }
 
 div {
-    width: 25%;
+    width: 500px;
     height: auto;
-
+    margin: 5px auto;
+    border-radius: 25px;
 }
+
