@@ -5,12 +5,30 @@
 body {
     text-align: center;
     box-shadow: #555;
+
 }
 
-div {
+div{
     width: 500px;
     height: auto;
-    margin: 5px auto;
-    border-radius: 25px;
+    margin: 20px auto;
+    margin-bottom: 35px auto;
+    border-radius: 25px 25px 25px 25px;
+    background-color: rgb(72, 63, 63);
 }
 
+p {
+    background-color: rgb(72, 63, 63);
+}
+
+tr {
+    text-align: center;
+}
+
+table {
+    background-color: rgb(72, 63, 63);
+}
+
+#caixa {
+    background-color: rgb(162, 20, 20);
+}
