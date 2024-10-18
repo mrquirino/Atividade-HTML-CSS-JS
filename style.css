@@ -9,12 +9,12 @@ body {
 }
 
 div{
-    width: 500px;
+    width: 45%;
     height: auto;
     margin: 20px auto;
-    margin-bottom: 35px auto;
     border-radius: 25px 25px 25px 25px;
     background-color: rgb(72, 63, 63);
+    text-align: center;
 }
 
 p {
@@ -35,5 +35,11 @@ table {
 
 #clique {
     background-color: red;
+    display: inline-block;
     
+}
+#todo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
