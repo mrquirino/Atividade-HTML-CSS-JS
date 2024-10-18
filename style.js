@@ -1,22 +1,22 @@
-
+//atv 1
 var cont = 0;
 document.getElementById("btn1").addEventListener("click", function () {
     cont++;
     document.getElementById("cont").innerText = "Numero de Cliques: " + cont;
 });
-
+//atv2
 document.getElementById("btn2").addEventListener("click", function () {
     document.getElementById("texto").style.color = "red";
 
 });
-
+//atv3
 document.getElementById("btn3").addEventListener("click", function () {
     var numb1 = parseFloat(document.getElementById("num1").value);
     var numb2 = parseFloat(document.getElementById("num2").value);
     var soma = numb1 + numb2;
     document.getElementById("resul").innerText = "Resultado: " + soma;
 });
-
+//atv4
 document.getElementById("btn4").addEventListener("click", function () {
     var nome = document.getElementById("text").value;
     if (nome === "") {
@@ -25,7 +25,7 @@ document.getElementById("btn4").addEventListener("click", function () {
         document.getElementById("404").innerText = "Erro 404";
     }
 });
-
+//atv5
 document.getElementById("pesq").addEventListener("input", function () {
     var pesquisa = document.getElementById("pesq").value.toLowerCase();
     var linhas = document.querySelectorAll("td");
@@ -39,7 +39,7 @@ document.getElementById("pesq").addEventListener("input", function () {
     });
 
 });
-
+//atv6
 var caixa = document.getElementById("caixa");
 caixa.addEventListener("mouseover", function () {
     caixa.style.backgroundColor = "yellow";
@@ -49,7 +49,7 @@ caixa.addEventListener("mouseout", function () {
     caixa.style.backgroundColor = "red"
 });
 
-
+//atv7
 var botaoAdicionar = document.getElementById("btnADD");
 var inputAdicionar = document.getElementById("Add");
 var Lista = document.getElementById("ListaTarefas");
@@ -75,9 +75,9 @@ botaoAdicionar.addEventListener("click", function () {
 
     novaTarefa.appendChild(btnRemover);
     Lista.appendChild(novaTarefa);
-    inputTarefa.value = "";
+    inputAdicionar.value = "";
 });
-
+//atv8
 var agora = new Date();
 var horas = agora.getHours();
 
